@@ -30,5 +30,51 @@
     padding: 15px;
     border-radius: 50%;
     background: #ebfffc;
-    cursor:pointer ;
+    cursor: pointer;
+}
+
+.clima-icon {
+    width: 150px;
+    margin: 30px 0;
+
+}
+
+.temperatura {
+    color: #fff;
+    font-size: 80px;
+    line-height: 1;
+
+}
+
+.localizacao {
+    color: #fff;
+    font-size: 40px;
+}
+
+.clima-data {
+    width: 100%;
+    margin-top: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.clima-data .col {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 22px;
+
+}
+
+.clima-data .col span {
+    display: block;
+    font-size: 16px;
+
+}
+
+.clima-data .col img {
+    width: 26px;
+    margin-top: 10px;
 }
